@@ -1,0 +1,53 @@
+.null_height{
+	height: 70px;
+}
+.center_insed_div{
+	margin: 0 auto;
+}
+.center_insed_ul{
+	list-style: none;
+	text-align: center;
+}
+.font_small{
+	font-size: 12px;
+}
+.font_family{
+	font-family:'Noto Serif', serif;
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 20px 0px;
+	color: #318FCF;
+}
+.outsed_div_m{
+	margin-bottom: 87px;
+}
+/* 手写媒体查询，响应式 */
+@media (min-width:576px) {
+	.div_width{
+		width:90%;
+		}
+		}
+@media (min-width:768px) {
+	.div_width{
+		width:90%;}
+		}
+@media (min-width:992px) {
+	.div_width{
+		width:60%;
+		}
+		}
+/*脚部响应式布局 */
+@media (min-width:576px) and (max-width:767.99px) {
+	.footer{height: 760px;}
+}
+@media (min-width:768px) and (max-width:991.99px) {
+	.footer{height: 490px;}
+}
+@media (min-width:992px) and (max-width:1199.99px) {
+	.footer{height:400px;}
+}
+@media (min-width:1200px) {
+	.footer{height:280px;}
+}
+

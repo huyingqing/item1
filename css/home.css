@@ -1,0 +1,197 @@
+	*{margin: 0;padding: 0;}
+			.head-bg{background: #000;}
+			.float{content: "";
+			clear: both;}
+			.text-color{color: #fff;}
+			.float-left{float:left;}
+			.head_ul_margin{margin-right:200px;}
+			.li_head{transform: 1s;}
+			.a_font_size{font-size: 12px;}
+			.a_hover:hover{
+				color: #fff;
+				font-weight:400;
+				}
+			.active{
+					color: #005CBF;
+				}
+			.button_color{border:1px solid #FFFFFF;
+			background-color: #000000;
+			}
+			.carousel-indicators li{
+				width: .8rem;height: .8rem;
+				border-radius: 50%;
+				background-color: #fff;
+			}
+			.carousel-indicators .active{
+				background-color: #0aaeed;
+			}
+			.carousel-control-prev,
+			.carousel-control-next{
+				width: 4%;height: 20%;
+				background-color: #aaa;
+				border-radius: 0.25rem;
+				top:40%
+			}
+			.text-align-center{
+				text-align: center;}
+			.svg_left1{
+				width: 100%;height:60px;
+				text-align: center;
+				padding: 0px;
+				margin-top:45px;
+				margin-left: 0px;
+				background-color: #ed5441;
+			}
+			.svg_left2{
+				width: 100%;height:60px;
+				text-align: center;
+				padding: 0;
+				margin-top:45px;
+				background-color: #D867B2;
+			}
+			.svg_right2{
+				width: 100%;height:60px;
+				text-align: center;
+				padding: 0;
+				margin-top:45px;
+				background-color: #4BC567;
+			}
+			.svg_right1{
+				width: 100%;height:60px;
+				text-align: center;
+				padding: 0;
+				margin-top:45px;
+				background-color: #26AFF0;
+			}
+			.div{width: 100%;}
+			.div_svg_left1,.div_svg_left2,.div_svg_right1,.div_svg_right2{
+				width: 100%;height: 150px;
+				background-color:#ed5441 ;
+				padding:0px 20px 0px 20px;
+			}
+			.div_svg_left2{
+				width: 100%;height: 150px;
+				background-color: #D867B2;
+			}
+			.div_svg_right1{
+				width: 100%;height: 150px;
+				background-color: #4BC567;
+			}
+			.div_svg_right2{
+				width: 100%;height: 150px;
+				background-color: #26AFF0;
+			}
+			.div_our_width{
+				width: 60%;
+			}
+			.div_svg_mt{
+				margin-top: 60px;
+			}
+			.div_svg_p{
+				padding:4rem;
+			}
+			.ul_div{
+				width: 70%;
+				margin: 0 auto;
+			}
+			.li_padding{
+				padding-left:2rem;
+				padding-right:2rem;
+			}
+			.ul_li_padding{
+				padding-left:30px;
+				padding-right:30px ;
+			}
+			.bottom_div{
+				height: 200px;
+				margin: 0 auto;
+				background: #26AFF0;
+			}
+			.carousel-indicators{
+			bottom: -57px;
+			}
+			.bottom_p{
+				width: 70%;
+				margin: 0 auto;
+				font-size: 16px;
+				font-style: italic;
+			}
+			.li_border{
+				border: 1px solid #fff;
+			}
+			/* 麦克风的位置 */
+			.fa-microphone:before {
+			    content: "\f130";
+			}
+			.div_microphone{
+				display: inline-table;
+				width: 70px;
+				height: 65px;
+				margin:-40px auto;
+				margin-top: 30px;
+				background: #fff;
+				border: 1px solid #26AFF0;
+				z-index: 12;
+				font-size: 42px;
+			}
+			.carousel-indicators{
+				bottom: -100px;
+				padding: 4rem;
+			}
+			.footer_bigdiv,.footer_bg{
+				background: #1C1D21;
+			}
+			.footer_width{
+				width: 70%;
+				margin:5px auto;
+				margin: 0 auto;
+			}
+			.footer_a_white{
+				color: #fff;
+				font-size: 12px;
+				text-align: center;
+			}
+			.footer_a_ul{
+				color: #fff;
+				font-size: 12px;
+			}
+			.footer_a{
+				color: #999;
+				font-size: 12px;
+				text-align: center;
+			}
+			.footer_a_white:hover,.footer_a:hover{
+				color: #fff;
+				font-weight: 400;
+				text-decoration: none;
+			}
+			.line-height{
+				line-height:1.6em;
+				padding:0px 20px 0px 20px;
+			}
+			.footer2_bg{
+			background: #16181D;
+			padding: 10px;
+			}
+			.bottom_img_width{
+				width: 74%;
+				background-color: #16181D;
+				/* color: #FFF3CD; */
+			}
+			.bottom_p_cneter{
+				margin: 0 auto;
+			}
+			.text{border: 1px solid red;}
+/*脚部响应式布局 */
+@media (min-width:576px) and (max-width:767.99px) {
+	.footer{height: 730px;}
+}
+@media (min-width:768px) and (max-width:991.99px) {
+	.footer{height: 700px;}
+}
+@media (min-width:992px) and (max-width:1199.99px) {
+	.footer{height:400px;}
+}
+@media (min-width:1200px) {
+	.footer{height:260px;}
+}

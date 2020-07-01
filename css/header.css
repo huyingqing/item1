@@ -1,0 +1,23 @@
+	*{margin: 0;padding: 0;}
+	.my_header{
+		width: 100%;
+		border: 0;
+	}
+			.head-bg{background: #000;}
+			.float{content: "";
+			clear: both;}
+			.text-color{color: #fff;}
+			.float-left{float:left;}
+			.head_ul_margin{margin-right:200px;}
+			.li_head{transform: 1s;}
+			.a_font_size{font-size: 12px;}
+			.a_hover:hover{
+				color: #fff;
+				font-weight:400;
+				}
+			.active{
+					color: #005CBF;
+				}
+			.button_color{border:1px solid #FFFFFF;
+			background-color: #000000;
+			}

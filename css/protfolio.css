@@ -1,0 +1,95 @@
+.border_color{
+	border:1px solid #D7D8D6;
+}
+.font_size{
+	font-size: 14px;
+	font-weight: 500px;
+	color: #318FCF;
+}
+.out_big_div{
+	width: 60%;
+	margin: 0 auto;
+}
+.center_picter{
+	width: 90%;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+.span{
+	display: block;
+	padding: 0px;
+	margin: 0 auto;
+	width:87%;height:100%;
+	background-color: transparent;
+	top: 0px;
+}
+.insed_span2,.insed_span1{
+	width: 7%;
+	opacity: 0;
+}
+.insed_span1{
+	width: 7%;
+	opacity: 0;
+}
+.span_father{
+	perspective: 0px;
+	transition: 1s;
+}
+.span:hover{
+	background: rgba(0,0,0,.3);
+	transform: scale(1);
+	display: block;
+	z-index: 5;
+}
+.one_a:hover .insed_span1{
+	opacity: 1;
+}
+.one_a:hover .insed_span2{
+	opacity: 1;
+}
+.span_father:hover{
+	transform:scale(1.1);
+}
+/* 点击a标签激活 */
+.one_a:active{
+	width:200%;height: 200%;
+	background: url(./img/portfolio/1.jpg);
+	
+}
+.center_picter_insed{
+	overflow: hidden;
+}
+.img-picture{
+	margin: 0 auto;
+}
+
+/* 手写媒体查询，响应式 */
+@media (min-width:576px) {
+	.div_width{
+		width:90%;
+		}
+		}
+@media (min-width:768px) and (max-width:992px) {
+	.div_width{
+		width:90%;}
+		}
+@media (min-width:992px) {
+	.div_width{
+		width:60%;
+		}
+		}
+/*脚部响应式布局 */
+@media (min-width:576px) and (max-width:767.99px) {
+	.footer{height: 760px;}
+}
+@media (min-width:768px) and (max-width:991.99px) {
+	.footer{height: 490px;}
+}
+@media (min-width:992px) and (max-width:1199.99px) {
+	.footer{height:400px;}
+}
+@media (min-width:1200px) {
+	.footer{height:280px;}
+}
+
